@@ -625,9 +625,9 @@ path:hover, circle:hover {
   box-shadow: 4px 12px 30px #8d8a8a2e;
 }
 .header-white .navbar a{
-  color: #00256688;
+  color: #002566a6;
 }
-.header-white .navbar a:hover{
+.header-white .navbar li a:hover{
   color: #002666;
 }
 #footer .footer-top .social-links .glo {
