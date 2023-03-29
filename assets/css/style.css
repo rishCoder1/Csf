@@ -627,6 +627,9 @@ path:hover, circle:hover {
 .header-white .navbar a{
   color: #002666;
 }
+.header-white .navbar a:hover{
+  color: #002666;
+}
 #footer .footer-top .social-links .glo {
   font-size: 18px;
   display: inline-block;
