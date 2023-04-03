@@ -16,7 +16,7 @@ a {
 }
 
 a:hover {
-  color: #74c92d;
+  color: #ffd500;
   text-decoration: none;
 }
 h1,
@@ -749,13 +749,48 @@ path:hover, circle:hover {
     font-size: 27px;
     color: #fff;
     padding: 30px 40px;
-    border-radius: 10px;
+    border-radius: 60px;
     font-family: avenir-m;
 }
 .d-report i{
   font-size: 40px;
   color: #ffd500;
-  margin-left: 5px;
+  display: contents;
+  margin-left: 10px;
+}
+.d-report:hover{
+  color: #fff;
+}
+.row-data{
+  background: #ffd500;
+  color: #002f6c;
+  display: block;
+  padding: 12px;
+  padding-top: 20px;
+  font-family: 'avenir-m';
+  font-size: 21px;
+  z-index: 0;
+  position: relative;
+  bottom: 13px;
+}
+.immg{
+  position: relative;
+    z-index: 1;
+}
+.row-data i{
+  font-size: 40px;
+  display: contents;
+  font-family: 'avenir-light';
+}
+.fade:not(.show) {
+  opacity: 1;
+}
+.modal.fade:not(.show) .modal-dialog {
+  transition: transform .3s ease-out;
+  transform: translate(0,-50px);
+}
+.fade.show {
+  opacity: 1;
 }
 .counts {
   padding: 0 0 30px 0;
