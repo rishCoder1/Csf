@@ -13,6 +13,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 a {
   color: #000000;
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {
@@ -627,7 +628,7 @@ section {
   justify-content: center;
 }
 .form-wrap{
-  width: 50%;
+  width: 90%;
     margin: auto;
     margin-top: 30px;
 }
@@ -847,6 +848,7 @@ section {
     border: 2px solid #ffd500;
     color: #fff;
     padding: 0px;
+    box-shadow: 1px 1px 46px #adadadc2;
 }
 .report-box img{
   width: 100%;
@@ -858,6 +860,15 @@ section {
     padding: 30px 40px;
     border-radius: 60px;
     font-family: avenir-m;
+    transition: 0.2s all ease-in-out;
+}
+.d-report:hover{
+  background: #ffd500;
+  font-size: 27px;
+  color: #1c3669;
+  padding: 30px 40px;
+  border-radius: 60px;
+  font-family: avenir-m;
 }
 .d-report i{
   font-size: 40px;
@@ -865,24 +876,29 @@ section {
   display: contents;
   margin-left: 10px;
 }
-.d-report:hover{
-  color: #fff;
+.d-report:hover i{
+  color: #1c3669;
+  margin-left: 16px;
 }
 .row-data{
   background: #ffd500;
   color: #002f6c;
   display: block;
   padding: 12px;
-  padding-top: 20px;
   font-family: 'avenir-m';
   font-size: 21px;
   z-index: 0;
   position: relative;
-  bottom: 13px;
+  bottom: 1px;
+  transition: 0.3s all ease-in-out;
+}
+.row-data:hover{
+  background: #002f6c;
+  color: #ffd500;
 }
 .immg{
   position: relative;
-    z-index: 1;
+    /* z-index: 1; */
 }
 .row-data i{
   font-size: 40px;
