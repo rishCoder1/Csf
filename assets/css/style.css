@@ -735,6 +735,28 @@ path:hover, circle:hover {
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
+.report-box{
+  background: #002f6c;
+    border: 2px solid #ffd500;
+    color: #fff;
+    padding: 0px;
+}
+.report-box img{
+  width: 100%;
+}
+.d-report{
+  background: #1c3669;
+    font-size: 27px;
+    color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    font-family: avenir-m;
+}
+.d-report i{
+  font-size: 40px;
+  color: #ffd500;
+  margin-left: 5px;
+}
 .counts {
   padding: 0 0 30px 0;
 }
@@ -821,6 +843,7 @@ path:hover, circle:hover {
   background: #eaeef3;
   padding: 40px 0 52px 0px;
   margin: 6% 0;
+  margin-bottom: 47px;
 }
 #theme .count-box{
   padding: 24px 15px;
@@ -1633,7 +1656,10 @@ margin-top: 10px;
   height: 36px;
   transition: 0.3s;
 }
-
+.grhp-p{
+  font-size: 11px;
+  text-align: center;
+}
 /* #footer .footer-top .social-links a:hover {
   background: #5c9f24;
   color: #fff;
