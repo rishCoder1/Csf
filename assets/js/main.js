@@ -205,12 +205,13 @@
     }
   });
 
+
   /**
    * Initiate Pure Counter 
    */
   new PureCounter();
 
-  $("path, circle").hover(function(e) {
+  $(".st1, circle").hover(function(e) {
     $('#info-box').css('display','block');
     $('#info-box').html($(this).data('info'));
   });
