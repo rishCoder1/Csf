@@ -3,7 +3,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+ 
   color: #444444;
 }
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -620,6 +620,13 @@ section {
 
 }
 /* Modal */
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color:none;
+  outline: 0;
+  box-shadow: None;
+}
 .modal-header{
   border: 0;
   background: #ffd500;

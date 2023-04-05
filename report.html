@@ -83,7 +83,7 @@
         <div class="row no-gutters">
           <div class="col-xl-12 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center">
-              <p class="text-left">
+              <p class="text-center">
                 <strong>BaSE</strong> is a household survey commissioned by Central Square Foundation (CSF) with the aim to bring out the voice of the end-user on the state of EdTech and provide critical insights to stakeholders in the EdTech ecosystem for informed decision-making. This is the first household survey focused on EdTech in low-income settings exploring trends in areas such as access to technology, usage of EdTech, and user sentiment around the adoption of EdTech. 
               </p>
             </div><!-- End .content-->
@@ -120,14 +120,14 @@
    <section id="theme" class="counts graph" style="background: transparent;">
     <div class="container">
       <div class="section-title">
-        <h2 class="title-2 text-center">Raw Data Tables 
+        <h2 class="title-2 text-center">BaSE Datasets
         </h2>
       </div>
       <div class="row no-gutters mt-3">
         <div class="col-lg-12 col-md-12 d-md-flex align-items-md-stretch">
           <div class="text-center">
             <img src="/assets/img/row-data.png" width="100%" alt="" class="immg"/>
-            <a  data-toggle="modal" data-target="#exampleModalCenter" class="row-data">Download Raw Data<i class="bi bi-arrow-right-short"></i> </a>
+            <a  data-toggle="modal" data-target="#exampleModalCenter" class="row-data">Download Data<i class="bi bi-arrow-right-short"></i> </a>
           </div>
          
         </div> 
@@ -168,14 +168,50 @@
                   <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Phone number (optional)" >
                 </div>
               </div>
-              <div class="col-md-12">
+              <div class="col-md-4">
                 <div class="form-group">
                   <input type="text" name="email" id="text" placeholder="Organization" class="form-control" required>
                 </div>
               </div>
-              <div class="col-md-12">
+              <div class="col-md-4">
                 <div class="form-group">
-                  <input type="text" name="email" id="text" placeholder="Designation" class="form-control" required>
+                  <input type="text" name="email" id="text" placeholder="Institution" class="form-control" required>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <input type="text" name="email" id="text" placeholder="University" class="form-control" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <input type="text" name="email" id="text" placeholder="Organization" class="form-control" required>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <input type="text" name="email" id="text" placeholder="Institution" class="form-control" required>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <select id="dropdown" name="role" class="form-control" required>
+                    <option disabled selected value>University Type</option>
+                    <option value="student">Depository Library</option>
+                    <option value="job">Govt. Organizations</option>
+                    <option value="learner">Individual Researchers
+                    </option>
+                    <option value="preferNo">NGO</option>
+                    <option value="other">Other</option>
+                    <option value="other">Private Agencies/Researchers
+                    </option>
+                    <option value="other">University Faculty
+                    </option>
+                    <option value="other">University Student
+                    </option>
+                  </select>
                 </div>
               </div>
             </div>
@@ -183,7 +219,7 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="form-group">
-                  <label>What would you use the data for?</label>
+                  <label>Purpose of downloading the data</label>
                   <textarea  id="comments" class="form-control" name="comment" ></textarea>
                 </div>
               </div>
