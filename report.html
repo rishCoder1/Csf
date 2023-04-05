@@ -123,8 +123,10 @@
         <h2 class="title-2 text-center">BaSE Datasets
         </h2>
       </div>
-      <div class="row no-gutters mt-3">
-        <div class="col-lg-12 col-md-12 d-md-flex align-items-md-stretch">
+      <div class="row no-gutters mt-3 justify-content-center
+      
+      ">
+        <div class="col-lg-10 col-md-12 d-md-flex align-items-md-stretch">
           <div class="text-center">
             <img src="/assets/img/row-data.png" width="100%" alt="" class="immg"/>
             <a  data-toggle="modal" data-target="#exampleModalCenter" class="row-data">Download Data<i class="bi bi-arrow-right-short"></i> </a>
@@ -146,7 +148,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <h6>Fill in your details and get the survey data for reference</h6>
+        <h6>To be able to download the datasets, you are required to submit a request access.  Kindly provide your details. CSF will share an email with datasets upon verification. </h6>
         <div class="form-wrap">	
           <form id="survey-form">
             <div class="row">
@@ -167,36 +169,28 @@
                 <div class="form-group">
                   <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Phone number (optional)" >
                 </div>
-              </div>
-              <div class="col-md-4">
-                <div class="form-group">
-                  <input type="text" name="email" id="text" placeholder="Organization" class="form-control" required>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="form-group">
-                  <input type="text" name="email" id="text" placeholder="Institution" class="form-control" required>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="form-group">
-                  <input type="text" name="email" id="text" placeholder="University" class="form-control" required>
-                </div>
-              </div>
+              </div>  
             </div>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-6">
                 <div class="form-group">
-                  <input type="text" name="email" id="text" placeholder="Organization" class="form-control" required>
+                  <select id="player_type" name="player_type" class="form-control" required>
+                    <option value="Organization">Organization</option>
+                    <option value="Institution">Institution</option>
+                    <option value="University">University Type</option>
+                  </select>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="form-group">
+            
+            <div class="col-md-6">
+              <div class="form-group">
+                <div id="Institution">
                   <input type="text" name="email" id="text" placeholder="Institution" class="form-control" required>
                 </div>
-              </div>
-              <div class="col-md-4">
-                <div class="form-group">
+                <div id="Organization">
+                  <input type="text" name="email" id="text" placeholder="Organization" class="form-control" required>
+                </div>
+                <div id="University">
                   <select id="dropdown" name="role" class="form-control" required>
                     <option disabled selected value>University Type</option>
                     <option value="student">Depository Library</option>
@@ -215,7 +209,6 @@
                 </div>
               </div>
             </div>
-        
             <div class="row">
               <div class="col-md-12">
                 <div class="form-group">

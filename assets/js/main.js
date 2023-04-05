@@ -226,7 +226,32 @@
   }).mouseover();
 
 
-
+  $(document).ready(function () {
+    toggleFields();
+    $("#player_type").change(function () {
+      toggleFields();
+    });
+  });
+  
+  function toggleFields() {
+    if ($("#player_type").val() === "Institution") {
+      $("#Institution").show();
+    } else {
+      $("#Institution").hide();
+    }
+    if ($("#player_type").val() === "Organization") {
+      $("#Organization").show();
+    } else {
+      $("#Organization").hide();
+    }
+    if ($("#player_type").val() === "University") {
+      $("#University").show();
+    } else {
+      $("#University").hide();
+    }
+     
+  }
+  
 })()
   
 
